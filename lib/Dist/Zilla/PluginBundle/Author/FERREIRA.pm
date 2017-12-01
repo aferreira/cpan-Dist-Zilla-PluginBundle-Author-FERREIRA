@@ -22,7 +22,7 @@ sub configure {
     $self->add_plugins('ModuleBuild');
     $self->add_plugins('MetaProvides::Package');
     $self->add_plugins(
-        [ AutoPrereqs => { extra_scanners => [ 'Mojo', 'Jojo' ] } ] );
+        [ AutoPrereqs => { extra_scanners => [ 'Mojo', 'Jojo', 'Zim' ] } ] );
 }
 
 __PACKAGE__->meta->make_immutable;
@@ -49,6 +49,7 @@ It is equivalent to:
     [AutoPrereqs]
     extra_scanners = Mojo
     extra_scanners = Jojo
+    extra_scanners = Zim
 
 =head1 ACKNOWLEDGMENTS
 
