@@ -4,6 +4,8 @@ Release history for Dist-Zilla-PluginBundle-Author-FERREIRA
 {{$NEXT}}
 
       - Require Perl::PrereqScanner::Scanner::Zim 0.2.0+
+      - Require Perl::PrereqScanner::Scanner::Jojo 0.3.0+
+      - Require Perl::PrereqScanner::Scanner::Mojo 0.3.0+
 
 v0.3     2017-12-01 17:36:35-08:00 America/Los_Angeles
 
